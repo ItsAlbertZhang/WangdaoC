@@ -6,44 +6,17 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		FACFBEA5277DAEA800F50C3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FACFBE97277DAEA700F50C3F;
-			remoteInfo = day2;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		FACFBE8C277DADEE00F50C3F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FACFBE8D277DADEE00F50C3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = day2.xcodeproj; path = day2/day2.xcodeproj; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
 /* Begin PBXGroup section */
-		FACFBE79277DADD000F50C3F = {
+		FACFBE8E277DAEA700F50C3F = {
 			isa = PBXGroup;
 			children = (
-				FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */,
-				FACFBE8C277DADEE00F50C3F /* LICENSE */,
-				FACFBE8D277DADEE00F50C3F /* README.md */,
-				FACFBE83277DADD000F50C3F /* Products */,
+				FACFBE98277DAEA700F50C3F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FACFBE83277DADD000F50C3F /* Products */ = {
+		FACFBE98277DAEA700F50C3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FACFBEA2277DAEA700F50C3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FACFBEA6277DAEA800F50C3F /* day2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,13 +24,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		FACFBE7A277DADD000F50C3F /* Project object */ = {
+		FACFBE8F277DAEA700F50C3F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 			};
-			buildConfigurationList = FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoHomework" */;
+			buildConfigurationList = FACFBE92277DAEA700F50C3F /* Build configuration list for PBXProject "day2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -65,33 +38,17 @@
 				en,
 				Base,
 			);
-			mainGroup = FACFBE79277DADD000F50C3F;
-			productRefGroup = FACFBE83277DADD000F50C3F /* Products */;
+			mainGroup = FACFBE8E277DAEA700F50C3F;
+			productRefGroup = FACFBE98277DAEA700F50C3F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FACFBEA2277DAEA700F50C3F /* Products */;
-					ProjectRef = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		FACFBEA6277DAEA800F50C3F /* day2 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = day2;
-			remoteRef = FACFBEA5277DAEA800F50C3F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin XCBuildConfiguration section */
-		FACFBE87277DADD000F50C3F /* Debug */ = {
+		FACFBE9C277DAEA700F50C3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -150,7 +107,7 @@
 			};
 			name = Debug;
 		};
-		FACFBE88277DADD000F50C3F /* Release */ = {
+		FACFBE9D277DAEA700F50C3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,16 +162,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoHomework" */ = {
+		FACFBE92277DAEA700F50C3F /* Build configuration list for PBXProject "day2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FACFBE87277DADD000F50C3F /* Debug */,
-				FACFBE88277DADD000F50C3F /* Release */,
+				FACFBE9C277DAEA700F50C3F /* Debug */,
+				FACFBE9D277DAEA700F50C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FACFBE7A277DADD000F50C3F /* Project object */;
+	rootObject = FACFBE8F277DAEA700F50C3F /* Project object */;
 }
