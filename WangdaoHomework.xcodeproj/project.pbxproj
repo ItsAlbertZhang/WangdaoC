@@ -7,12 +7,61 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		FACFBEA5277DAEA800F50C3F /* PBXContainerItemProxy */ = {
+		FACFBF20277DCEF800F50C3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FACFBE97277DAEA700F50C3F;
-			remoteInfo = day2;
+			remoteGlobalIDString = FACFBEAB277DAF7F00F50C3F;
+			remoteInfo = 1_PrintMultiplicationTable;
+		};
+		FACFBF22277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBEB6277DAFD100F50C3F;
+			remoteInfo = 2_PrintGraphics;
+		};
+		FACFBF24277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBEC1277DB0AF00F50C3F;
+			remoteInfo = 4_GetPublicElements;
+		};
+		FACFBF26277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBECC277DB13A00F50C3F;
+			remoteInfo = 5_Get1stAND2rdLargest;
+		};
+		FACFBF28277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBED7277DB19700F50C3F;
+			remoteInfo = 6_GetFrequencyPastHalf;
+		};
+		FACFBF2A277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBEE2277DB22500F50C3F;
+			remoteInfo = 7_GetMinAbs;
+		};
+		FACFBF2C277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBEED277DB28400F50C3F;
+			remoteInfo = 8_GetRepeated;
+		};
+		FACFBF2F277DCEF800F50C3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACFBF16277DCEF800F50C3F /* day3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACFBF0C277DCEF800F50C3F;
+			remoteInfo = day3;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -20,12 +69,14 @@
 		FACFBE8C277DADEE00F50C3F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FACFBE8D277DADEE00F50C3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = day2.xcodeproj; path = day2/day2.xcodeproj; sourceTree = "<group>"; };
+		FACFBF16277DCEF800F50C3F /* day3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = day3.xcodeproj; path = day3/day3.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		FACFBE79277DADD000F50C3F = {
 			isa = PBXGroup;
 			children = (
+				FACFBF16277DCEF800F50C3F /* day3.xcodeproj */,
 				FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */,
 				FACFBE8C277DADEE00F50C3F /* LICENSE */,
 				FACFBE8D277DADEE00F50C3F /* README.md */,
@@ -43,7 +94,21 @@
 		FACFBEA2277DAEA700F50C3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FACFBEA6277DAEA800F50C3F /* day2 */,
+				FACFBF21277DCEF800F50C3F /* 1_PrintMultiplicationTable */,
+				FACFBF23277DCEF800F50C3F /* 2_PrintGraphics */,
+				FACFBF25277DCEF800F50C3F /* 4_GetPublicElements */,
+				FACFBF27277DCEF800F50C3F /* 5_Get1stAND2rdLargest */,
+				FACFBF29277DCEF800F50C3F /* 6_GetFrequencyPastHalf */,
+				FACFBF2B277DCEF800F50C3F /* 7_GetMinAbs */,
+				FACFBF2D277DCEF800F50C3F /* 8_GetRepeated */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACFBF17277DCEF800F50C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACFBF30277DCEF800F50C3F /* day3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +138,10 @@
 					ProductGroup = FACFBEA2277DAEA700F50C3F /* Products */;
 					ProjectRef = FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */;
 				},
+				{
+					ProductGroup = FACFBF17277DCEF800F50C3F /* Products */;
+					ProjectRef = FACFBF16277DCEF800F50C3F /* day3.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -81,11 +150,60 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FACFBEA6277DAEA800F50C3F /* day2 */ = {
+		FACFBF21277DCEF800F50C3F /* 1_PrintMultiplicationTable */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = day2;
-			remoteRef = FACFBEA5277DAEA800F50C3F /* PBXContainerItemProxy */;
+			path = 1_PrintMultiplicationTable;
+			remoteRef = FACFBF20277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF23277DCEF800F50C3F /* 2_PrintGraphics */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 2_PrintGraphics;
+			remoteRef = FACFBF22277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF25277DCEF800F50C3F /* 4_GetPublicElements */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 4_GetPublicElements;
+			remoteRef = FACFBF24277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF27277DCEF800F50C3F /* 5_Get1stAND2rdLargest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 5_Get1stAND2rdLargest;
+			remoteRef = FACFBF26277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF29277DCEF800F50C3F /* 6_GetFrequencyPastHalf */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 6_GetFrequencyPastHalf;
+			remoteRef = FACFBF28277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF2B277DCEF800F50C3F /* 7_GetMinAbs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 7_GetMinAbs;
+			remoteRef = FACFBF2A277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF2D277DCEF800F50C3F /* 8_GetRepeated */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 8_GetRepeated;
+			remoteRef = FACFBF2C277DCEF800F50C3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FACFBF30277DCEF800F50C3F /* day3 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = day3;
+			remoteRef = FACFBF2F277DCEF800F50C3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
