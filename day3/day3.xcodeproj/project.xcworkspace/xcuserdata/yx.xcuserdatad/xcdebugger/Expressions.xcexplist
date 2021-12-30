@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "getweek:7_Calender.c">
+      </ContextState>
+      <ContextState
+         contextName = "tonewyear:6_CalcDate.c">
+      </ContextState>
+      <ContextState
+         contextName = "num2str:3_IncrementalConversion.c">
+      </ContextState>
+      <ContextState
+         contextName = "tonewyear:7_Calender.c">
+      </ContextState>
+      <ContextState
+         contextName = "StatisticalPlotting:2_StatisticalPlotting.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "stat[0]">
+            </PersistentString>
+            <PersistentString
+               value = "stat[1]">
+            </PersistentString>
+            <PersistentString
+               value = "stat[2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
