@@ -69,3 +69,4 @@ int main(int argc, const char * argv[]) {
     IncrementalConversion(s, len, ori, tar);
     return 0;
 }
+

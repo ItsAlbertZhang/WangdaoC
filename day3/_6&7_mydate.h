@@ -21,3 +21,4 @@ int isleap(int year);
 int leapcntto1(int year);
 
 #endif /* _6_7_mydate_h */
+

@@ -10,7 +10,6 @@
 		FA070F60277DD9D500C96C63 /* 2_StatisticalPlotting.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070F5A277DD9BB00C96C63 /* 2_StatisticalPlotting.c */; };
 		FA070F73277DE57D00C96C63 /* 3_IncrementalConversion.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070F72277DE57D00C96C63 /* 3_IncrementalConversion.c */; };
 		FA070F7E277DEF6500C96C63 /* 4_GetBin1.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070F7D277DEF6500C96C63 /* 4_GetBin1.c */; };
-		FA070F89277DF1C200C96C63 /* 5_GetOnce.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070F88277DF1C200C96C63 /* 5_GetOnce.c */; };
 		FA070F94277DF24000C96C63 /* 6_CalcDate.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070F93277DF24000C96C63 /* 6_CalcDate.c */; };
 		FA070F9B277DF4E000C96C63 /* _6&7_mydate.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070F9A277DF4E000C96C63 /* _6&7_mydate.c */; };
 		FA070FA3277E03F400C96C63 /* 7_Calender.c in Sources */ = {isa = PBXBuildFile; fileRef = FA070FA2277E03F400C96C63 /* 7_Calender.c */; };
@@ -92,7 +91,6 @@
 		FA070F7B277DEF6500C96C63 /* 4_GetBin1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4_GetBin1; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA070F7D277DEF6500C96C63 /* 4_GetBin1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_GetBin1.c; sourceTree = "<group>"; };
 		FA070F86277DF1C200C96C63 /* 5_GetOnce */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 5_GetOnce; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA070F88277DF1C200C96C63 /* 5_GetOnce.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_GetOnce.c; sourceTree = "<group>"; };
 		FA070F91277DF24000C96C63 /* 6_CalcDate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6_CalcDate; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA070F93277DF24000C96C63 /* 6_CalcDate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6_CalcDate.c; sourceTree = "<group>"; };
 		FA070F99277DF32000C96C63 /* _6&7_mydate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_6&7_mydate.h"; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 				FA070F5A277DD9BB00C96C63 /* 2_StatisticalPlotting.c */,
 				FA070F72277DE57D00C96C63 /* 3_IncrementalConversion.c */,
 				FA070F7D277DEF6500C96C63 /* 4_GetBin1.c */,
-				FA070F88277DF1C200C96C63 /* 5_GetOnce.c */,
 				FA070F99277DF32000C96C63 /* _6&7_mydate.h */,
 				FA070F9A277DF4E000C96C63 /* _6&7_mydate.c */,
 				FA070F93277DF24000C96C63 /* 6_CalcDate.c */,
@@ -393,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA070F89277DF1C200C96C63 /* 5_GetOnce.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
