@@ -6,42 +6,17 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		FACFBE86277DADD000F50C3F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBE85277DADD000F50C3F /* main.c */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FACFBE80277DADD000F50C3F /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		FACFBE82277DADD000F50C3F /* WangdaoHomework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WangdaoHomework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBE85277DADD000F50C3F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FACFBE8C277DADEE00F50C3F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FACFBE8D277DADEE00F50C3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		FACFBE7F277DADD000F50C3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		FACFBE79277DADD000F50C3F = {
 			isa = PBXGroup;
 			children = (
-				FACFBE84277DADD000F50C3F /* WangdaoHomework */,
+				FACFBE8C277DADEE00F50C3F /* LICENSE */,
+				FACFBE8D277DADEE00F50C3F /* README.md */,
 				FACFBE83277DADD000F50C3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,40 +24,11 @@
 		FACFBE83277DADD000F50C3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FACFBE82277DADD000F50C3F /* WangdaoHomework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FACFBE84277DADD000F50C3F /* WangdaoHomework */ = {
-			isa = PBXGroup;
-			children = (
-				FACFBE85277DADD000F50C3F /* main.c */,
-			);
-			path = WangdaoHomework;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		FACFBE81277DADD000F50C3F /* WangdaoHomework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBE89277DADD000F50C3F /* Build configuration list for PBXNativeTarget "WangdaoHomework" */;
-			buildPhases = (
-				FACFBE7E277DADD000F50C3F /* Sources */,
-				FACFBE7F277DADD000F50C3F /* Frameworks */,
-				FACFBE80277DADD000F50C3F /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WangdaoHomework;
-			productName = WangdaoHomework;
-			productReference = FACFBE82277DADD000F50C3F /* WangdaoHomework */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		FACFBE7A277DADD000F50C3F /* Project object */ = {
@@ -90,11 +36,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
-				TargetAttributes = {
-					FACFBE81277DADD000F50C3F = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-				};
 			};
 			buildConfigurationList = FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoHomework" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -109,21 +50,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FACFBE81277DADD000F50C3F /* WangdaoHomework */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		FACFBE7E277DADD000F50C3F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FACFBE86277DADD000F50C3F /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		FACFBE87277DADD000F50C3F /* Debug */ = {
@@ -237,22 +166,6 @@
 			};
 			name = Release;
 		};
-		FACFBE8A277DADD000F50C3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		FACFBE8B277DADD000F50C3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -261,15 +174,6 @@
 			buildConfigurations = (
 				FACFBE87277DADD000F50C3F /* Debug */,
 				FACFBE88277DADD000F50C3F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FACFBE89277DADD000F50C3F /* Build configuration list for PBXNativeTarget "WangdaoHomework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FACFBE8A277DADD000F50C3F /* Debug */,
-				FACFBE8B277DADD000F50C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
