@@ -3,13 +3,30 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "getweek:7_Calender.c">
-      </ContextState>
-      <ContextState
-         contextName = "tonewyear:6_CalcDate.c">
-      </ContextState>
-      <ContextState
          contextName = "num2str:3_IncrementalConversion.c">
+      </ContextState>
+      <ContextState
+         contextName = "GetOnce3:5_GetOnce.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "y">
+            </PersistentString>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "arr[i]">
+            </PersistentString>
+            <PersistentString
+               value = "(int(&amp;)[3])*ret">
+            </PersistentString>
+            <PersistentString
+               value = "ret[0]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "tonewyear:7_Calender.c">
@@ -27,6 +44,20 @@
                value = "stat[2]">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "getweek:7_Calender.c">
+      </ContextState>
+      <ContextState
+         contextName = "main:5_GetOnce.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;)[100])arr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "tonewyear:6_CalcDate.c">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

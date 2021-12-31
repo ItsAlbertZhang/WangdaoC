@@ -12,17 +12,17 @@
 		<key>2_StatisticalPlotting.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>4</integer>
 		</dict>
 		<key>3_IncrementalConversion.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>3</integer>
 		</dict>
 		<key>4_GetBin1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>1</integer>
 		</dict>
 		<key>5_GetOnce.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,17 +32,32 @@
 		<key>6_CalcDate.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>13</integer>
 		</dict>
 		<key>7_Calender.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>FA070F64277DE54F00C96C63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA070F7A277DEF6500C96C63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA070FAE277E956B00C96C63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FACFBF34277DD04200F50C3F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
