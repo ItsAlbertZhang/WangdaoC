@@ -49,6 +49,7 @@
 		FAFEB37E277F33F7009D3CB0 /* _2&3_PrintNumofWords.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "_2&3_PrintNumofWords.c"; sourceTree = "<group>"; };
 		FAFEB389277F3921009D3CB0 /* 4_ReverseStr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4_ReverseStr; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFEB38B277F3921009D3CB0 /* 4_ReverseStr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_ReverseStr.c; sourceTree = "<group>"; };
+		FAFEB396277F57D2009D3CB0 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 				FAFEB366277F18FD009D3CB0 /* 1_MyStr.c */,
 				FAFEB37E277F33F7009D3CB0 /* _2&3_PrintNumofWords.c */,
 				FAFEB38B277F3921009D3CB0 /* 4_ReverseStr.c */,
+				FAFEB396277F57D2009D3CB0 /* test.png */,
 				FAFEB335277F1837009D3CB0 /* Products */,
 			);
 			sourceTree = "<group>";
