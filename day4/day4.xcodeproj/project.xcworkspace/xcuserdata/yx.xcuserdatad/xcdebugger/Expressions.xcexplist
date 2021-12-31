@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "mystrcat:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char(&amp;)[200])*str1">
+            </PersistentString>
+            <PersistentString
+               value = "(char(&amp;)[20])*str2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "reverse:4_ReverseStr.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char(&amp;)[100])*s">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mystrlen:main.c">
+      </ContextState>
+      <ContextState
+         contextName = "main:4_ReverseStr.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char(&amp;)[100])*s">
+            </PersistentString>
+            <PersistentString
+               value = "(char(&amp;)[100])*end">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
