@@ -78,7 +78,7 @@ void calendar(int year, int month) {
     for(int i = 1; i < dweek; i++) {
         printf("    ");
     }
-    for(int i = 1, cnt = dweek; i < dmonthdays; i++, cnt++) {
+    for(int i = 1, cnt = dweek; i <= dmonthdays; i++, cnt++) {
         printf("%4d", i);
         if(cnt % 7 == 0) {
             printf("\n");

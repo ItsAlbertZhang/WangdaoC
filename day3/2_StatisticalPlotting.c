@@ -82,6 +82,7 @@ int main(int argc, const char * argv[]) {
         }
     }
     StatisticalPlotting(s, len);
+    printf("\n");
     return 0;
 }
 
