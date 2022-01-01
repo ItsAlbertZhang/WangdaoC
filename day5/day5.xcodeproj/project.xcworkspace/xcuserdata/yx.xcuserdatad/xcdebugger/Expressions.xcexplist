@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MergeSortLAN:day5_1_SeparateLetter&amp;Number.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char(&amp;)[10])*s">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SpaceTo020:day5_2_SpaceTo%020.c">
+      </ContextState>
+      <ContextState
+         contextName = "main:day5_2_SpaceTo%020.c">
+      </ContextState>
+      <ContextState
+         contextName = "main:day5_4_DelRepElem.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int(&amp;)[10])*res">
+            </PersistentString>
+            <PersistentString
+               value = "reslen">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MergeLAN:day5_1_SeparateLetter&amp;Number.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "c[j]">
+            </PersistentString>
+            <PersistentString
+               value = "c[k]">
+            </PersistentString>
+            <PersistentString
+               value = "a[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
