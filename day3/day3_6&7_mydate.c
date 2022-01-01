@@ -1,5 +1,5 @@
 //
-//  _6&7_mydate.c
+//  day3_6&7_mydate.c
 //  6_CalcDate
 //
 //  Created by 雨轩 on 2021/12/30.

@@ -105,12 +105,26 @@
 			remoteGlobalIDString = FA070FAF277E956B00C96C63;
 			remoteInfo = 5_GetOnce;
 		};
-		FAFEB35E277F1837009D3CB0 /* PBXContainerItemProxy */ = {
+		FAFEB3AF277FE1D3009D3CB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAFEB33E277F1837009D3CB0 /* day4.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FAFEB334277F1837009D3CB0;
-			remoteInfo = day4;
+			remoteGlobalIDString = FAFEB364277F18FD009D3CB0;
+			remoteInfo = 1_MyStr;
+		};
+		FAFEB3B1277FE1D3009D3CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFEB33E277F1837009D3CB0 /* day4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAFEB37C277F33F7009D3CB0;
+			remoteInfo = "_2&3_PrintNumofWords";
+		};
+		FAFEB3B3277FE1D3009D3CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFEB33E277F1837009D3CB0 /* day4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAFEB389277F3921009D3CB0;
+			remoteInfo = 4_ReverseStr;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -120,6 +134,7 @@
 		FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = day2.xcodeproj; path = day2/day2.xcodeproj; sourceTree = "<group>"; };
 		FACFBF16277DCEF800F50C3F /* day3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = day3.xcodeproj; path = day3/day3.xcodeproj; sourceTree = "<group>"; };
 		FAFEB33E277F1837009D3CB0 /* day4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = day4.xcodeproj; path = day4/day4.xcodeproj; sourceTree = "<group>"; };
+		FAFEB39D277FE1D2009D3CB0 /* Committed Records.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Committed Records.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -129,6 +144,7 @@
 				FAFEB33E277F1837009D3CB0 /* day4.xcodeproj */,
 				FACFBF16277DCEF800F50C3F /* day3.xcodeproj */,
 				FACFBEA1277DAEA700F50C3F /* day2.xcodeproj */,
+				FAFEB39D277FE1D2009D3CB0 /* Committed Records.md */,
 				FACFBE8C277DADEE00F50C3F /* LICENSE */,
 				FACFBE8D277DADEE00F50C3F /* README.md */,
 				FACFBE83277DADD000F50C3F /* Products */,
@@ -173,7 +189,9 @@
 		FAFEB33F277F1837009D3CB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAFEB35F277F1837009D3CB0 /* day4 */,
+				FAFEB3B0277FE1D3009D3CB0 /* 1_MyStr */,
+				FAFEB3B2277FE1D3009D3CB0 /* _2&3_PrintNumofWords */,
+				FAFEB3B4277FE1D3009D3CB0 /* 4_ReverseStr */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,11 +335,25 @@
 			remoteRef = FAFEB35B277F1837009D3CB0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FAFEB35F277F1837009D3CB0 /* day4 */ = {
+		FAFEB3B0277FE1D3009D3CB0 /* 1_MyStr */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = day4;
-			remoteRef = FAFEB35E277F1837009D3CB0 /* PBXContainerItemProxy */;
+			path = 1_MyStr;
+			remoteRef = FAFEB3AF277FE1D3009D3CB0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FAFEB3B2277FE1D3009D3CB0 /* _2&3_PrintNumofWords */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "_2&3_PrintNumofWords";
+			remoteRef = FAFEB3B1277FE1D3009D3CB0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FAFEB3B4277FE1D3009D3CB0 /* 4_ReverseStr */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 4_ReverseStr;
+			remoteRef = FAFEB3B3277FE1D3009D3CB0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

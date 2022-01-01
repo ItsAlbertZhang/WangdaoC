@@ -1,9 +1,11 @@
 //
-//  _2&3_PrintNumofWordsc
-//  _2&3_PrintNumofWords
+//  day4_2&3_PrintNumofWordsc
+//  day4_2&3_PrintNumofWords
 //
 //  Created by 雨轩 on 2021/12/31.
 //
+
+//  2&3. 输入一行字符串(单词和若干空格), 输出该行单词(每个单词一行), 并输出该行单词的个数.
 
 #include <stdio.h>
 #define MAX_LENGTH 100

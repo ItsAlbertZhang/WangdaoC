@@ -1,9 +1,11 @@
 //
-//  2_PrintGraphics.c
-//  2_PrintGraphics
+//  day2_2_PrintGraphics.c
+//  day2_2_PrintGraphics
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  2. 打印以下图形:菱形、空心菱形、心形.
 
 #include <stdio.h>
 #define SIDE_LENGTH 5

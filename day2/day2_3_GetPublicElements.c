@@ -1,9 +1,11 @@
 //
-//  4_GetPublicElements.c
-//  4_GetPublicElements
+//  day2_3_GetPublicElements.c
+//  day2_3_GetPublicElements
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  3. 求 n 个有序数组的公共元素.
 
 #include <stdio.h>
 #include <stdlib.h>

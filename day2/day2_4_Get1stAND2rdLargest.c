@@ -1,9 +1,11 @@
 //
-//  5_Get1stAND2rdLargest.c
-//  5_Get1stAND2rdLargest
+//  day2_4_Get1stAND2rdLargest.c
+//  day2_4_Get1stAND2rdLargest
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  4. 求数组的最大值和次大值.
 
 #include <stdio.h>
 #include <stdlib.h>

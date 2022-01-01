@@ -1,9 +1,11 @@
 //
-//  7_GetMinAbs.c
-//  7_GetMinAbs
+//  day2_6_GetMinAbs.c
+//  day2_6_GetMinAbs
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  6. 给定一个含有n个元素的整型数组, 找出数组中的两个元素 x 和 y 使得 abs(x - y) 值最小.
 
 #include <stdio.h>
 #include <stdlib.h>

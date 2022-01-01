@@ -1,9 +1,11 @@
 //
-//  8_GetRepeated.c
-//  8_GetRepeated
+//  day2_7_GetRepeated.c
+//  day2_7_GetRepeated
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  7. 给定含有 1001 个元素的数组, 其中存放了 1-1000 之内的整数, 只有一个整数是重复的, 请找出这个数.
 
 #include <stdio.h>
 #define NUM 233

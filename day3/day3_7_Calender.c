@@ -1,12 +1,14 @@
 //
-//  7_Calender.c
-//  7_Calender
+//  day3_7_Calender.c
+//  day3_7_Calender
 //
 //  Created by 雨轩 on 2021/12/30.
 //
 
+//  7. 输入一个年份, 打印该年份的日历.
+
 #include <stdio.h>
-#include "_6&7_mydate.h"
+#include "day3_6&7_mydate.h"
 
 void printline(int cnt) {
     for(int i = 0; i < cnt; i++) {

@@ -1,9 +1,13 @@
 //
-//  2_StatisticalPlotting.c
-//  2_StatisticalPlotting
+//  day3_2_StatisticalPlotting.c
+//  day3_2_StatisticalPlotting
 //
 //  Created by 雨轩 on 2021/12/30.
 //
+
+//  2. 从键盘上输入字符:
+//  (1)分别统计一下其中字母, 数字, 其他字符的个数;
+//  (2)将统计的字母, 数字, 其他字符的个数以柱状图的形式打印.
 
 #include <stdio.h>
 #define MAX_LENGTH 100

@@ -1,9 +1,11 @@
 //
-//  1_MyStr.c
-//  1_MyStr
+//  day4_1_MyStr.c
+//  day4_1_MyStr
 //
 //  Created by 雨轩 on 2021/12/31.
 //
+
+//  1. 实现 mystrcpy(); mystrcmp(); mystrcat(); mystrlen();
 
 #include <stdio.h>
 #define MAX_LENGTH 100

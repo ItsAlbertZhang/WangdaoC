@@ -1,12 +1,20 @@
 //
-//  6_CalcDate.c
-//  6_CalcDate
+//  day3_6_CalcDate.c
+//  day3_6_CalcDate
 //
 //  Created by 雨轩 on 2021/12/30.
 //
 
+//  6. 实现以下功能:
+//  (1) 输入年月日, 输出该日期是当年的第几天.
+//  (2) 输入两个日期, 输出这两个日期之间差多少天.
+//  (3) 输入一个日期, 输出该日期是星期几.
+//  (4) 输入一个日期和一个整数 n, 输出从该日期起经过 n 天以后的日期.
+//  (5) 输入一个年份, 月份, 输出该月份的日历.
+
+
 #include <stdio.h>
-#include "_6&7_mydate.h"
+#include "day3_6&7_mydate.h"
 
 int tonewyear(date d) {
     int day = d.day;

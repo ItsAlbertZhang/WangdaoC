@@ -1,9 +1,11 @@
 //
-//  3_IncrementalConversion.c
-//  3_IncrementalConversion
+//  day3_3_IncrementalConversion.c
+//  day3_3_IncrementalConversion
 //
 //  Created by 雨轩 on 2021/12/30.
 //
+
+//  3. 实现进制转换.
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,9 +1,11 @@
 //
-//  4_ReverseStr.c
-//  4_ReverseStr
+//  day4_4_ReverseStr.c
+//  day4_4_ReverseStr
 //
 //  Created by 雨轩 on 2021/12/31.
 //
+
+//  4. 输入一行字符串, 把字符串翻转.
 
 #include <stdio.h>
 #define MAX_LENGTH 100

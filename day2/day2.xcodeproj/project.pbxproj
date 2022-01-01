@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FACFBEAE277DAF7F00F50C3F /* 1_PrintMultiplicationTable.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEAD277DAF7F00F50C3F /* 1_PrintMultiplicationTable.c */; };
-		FACFBEFA277DB30600F50C3F /* 2_PrintGraphics.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEB8277DAFD100F50C3F /* 2_PrintGraphics.c */; };
-		FACFBEFB277DB30900F50C3F /* 4_GetPublicElements.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEC3277DB0AF00F50C3F /* 4_GetPublicElements.c */; };
-		FACFBEFC277DB30C00F50C3F /* 5_Get1stAND2rdLargest.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBECE277DB13A00F50C3F /* 5_Get1stAND2rdLargest.c */; };
-		FACFBEFD277DB30F00F50C3F /* 6_GetFrequencyPastHalf.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBED9277DB19700F50C3F /* 6_GetFrequencyPastHalf.c */; };
-		FACFBEFE277DB31300F50C3F /* 7_GetMinAbs.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEE4277DB22500F50C3F /* 7_GetMinAbs.c */; };
-		FACFBEFF277DB31600F50C3F /* 8_GetRepeated.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEEF277DB28400F50C3F /* 8_GetRepeated.c */; };
+		FACFBEAE277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEAD277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable.c */; };
+		FACFBEFA277DB30600F50C3F /* day2_2_PrintGraphics.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEB8277DAFD100F50C3F /* day2_2_PrintGraphics.c */; };
+		FACFBEFB277DB30900F50C3F /* day2_3_GetPublicElements.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEC3277DB0AF00F50C3F /* day2_3_GetPublicElements.c */; };
+		FACFBEFC277DB30C00F50C3F /* day2_4_Get1stAND2rdLargest.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBECE277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest.c */; };
+		FACFBEFD277DB30F00F50C3F /* day2_5_GetFrequencyPastHalf.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBED9277DB19700F50C3F /* day2_5_GetFrequencyPastHalf.c */; };
+		FACFBEFE277DB31300F50C3F /* day2_6_GetMinAbs.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEE4277DB22500F50C3F /* day2_6_GetMinAbs.c */; };
+		FACFBEFF277DB31600F50C3F /* day2_7_GetRepeated.c in Sources */ = {isa = PBXBuildFile; fileRef = FACFBEEF277DB28400F50C3F /* day2_7_GetRepeated.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,20 +83,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FACFBEAB277DAF7F00F50C3F /* 1_PrintMultiplicationTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 1_PrintMultiplicationTable; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBEAD277DAF7F00F50C3F /* 1_PrintMultiplicationTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_PrintMultiplicationTable.c; sourceTree = "<group>"; };
-		FACFBEB6277DAFD100F50C3F /* 2_PrintGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2_PrintGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBEB8277DAFD100F50C3F /* 2_PrintGraphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2_PrintGraphics.c; sourceTree = "<group>"; };
-		FACFBEC1277DB0AF00F50C3F /* 4_GetPublicElements */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4_GetPublicElements; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBEC3277DB0AF00F50C3F /* 4_GetPublicElements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 4_GetPublicElements.c; sourceTree = "<group>"; };
-		FACFBECC277DB13A00F50C3F /* 5_Get1stAND2rdLargest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 5_Get1stAND2rdLargest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBECE277DB13A00F50C3F /* 5_Get1stAND2rdLargest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 5_Get1stAND2rdLargest.c; sourceTree = "<group>"; };
-		FACFBED7277DB19700F50C3F /* 6_GetFrequencyPastHalf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6_GetFrequencyPastHalf; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBED9277DB19700F50C3F /* 6_GetFrequencyPastHalf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 6_GetFrequencyPastHalf.c; sourceTree = "<group>"; };
-		FACFBEE2277DB22500F50C3F /* 7_GetMinAbs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7_GetMinAbs; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBEE4277DB22500F50C3F /* 7_GetMinAbs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7_GetMinAbs.c; sourceTree = "<group>"; };
-		FACFBEED277DB28400F50C3F /* 8_GetRepeated */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8_GetRepeated; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACFBEEF277DB28400F50C3F /* 8_GetRepeated.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 8_GetRepeated.c; sourceTree = "<group>"; };
+		FACFBEAB277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_1_PrintMultiplicationTable; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBEAD277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_1_PrintMultiplicationTable.c; sourceTree = "<group>"; };
+		FACFBEB6277DAFD100F50C3F /* day2_2_PrintGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_2_PrintGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBEB8277DAFD100F50C3F /* day2_2_PrintGraphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_2_PrintGraphics.c; sourceTree = "<group>"; };
+		FACFBEC1277DB0AF00F50C3F /* day2_3_GetPublicElements */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_3_GetPublicElements; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBEC3277DB0AF00F50C3F /* day2_3_GetPublicElements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_3_GetPublicElements.c; sourceTree = "<group>"; };
+		FACFBECC277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_4_Get1stAND2rdLargest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBECE277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_4_Get1stAND2rdLargest.c; sourceTree = "<group>"; };
+		FACFBED7277DB19700F50C3F /* day2_5_GetFrequencyPastHalf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_5_GetFrequencyPastHalf; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBED9277DB19700F50C3F /* day2_5_GetFrequencyPastHalf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_5_GetFrequencyPastHalf.c; sourceTree = "<group>"; };
+		FACFBEE2277DB22500F50C3F /* day2_6_GetMinAbs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_6_GetMinAbs; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBEE4277DB22500F50C3F /* day2_6_GetMinAbs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_6_GetMinAbs.c; sourceTree = "<group>"; };
+		FACFBEED277DB28400F50C3F /* day2_7_GetRepeated */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day2_7_GetRepeated; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACFBEEF277DB28400F50C3F /* day2_7_GetRepeated.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2_7_GetRepeated.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,13 +155,13 @@
 		FACFBE8E277DAEA700F50C3F = {
 			isa = PBXGroup;
 			children = (
-				FACFBEAD277DAF7F00F50C3F /* 1_PrintMultiplicationTable.c */,
-				FACFBEB8277DAFD100F50C3F /* 2_PrintGraphics.c */,
-				FACFBEC3277DB0AF00F50C3F /* 4_GetPublicElements.c */,
-				FACFBECE277DB13A00F50C3F /* 5_Get1stAND2rdLargest.c */,
-				FACFBED9277DB19700F50C3F /* 6_GetFrequencyPastHalf.c */,
-				FACFBEE4277DB22500F50C3F /* 7_GetMinAbs.c */,
-				FACFBEEF277DB28400F50C3F /* 8_GetRepeated.c */,
+				FACFBEAD277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable.c */,
+				FACFBEB8277DAFD100F50C3F /* day2_2_PrintGraphics.c */,
+				FACFBEC3277DB0AF00F50C3F /* day2_3_GetPublicElements.c */,
+				FACFBECE277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest.c */,
+				FACFBED9277DB19700F50C3F /* day2_5_GetFrequencyPastHalf.c */,
+				FACFBEE4277DB22500F50C3F /* day2_6_GetMinAbs.c */,
+				FACFBEEF277DB28400F50C3F /* day2_7_GetRepeated.c */,
 				FACFBE98277DAEA700F50C3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -169,13 +169,13 @@
 		FACFBE98277DAEA700F50C3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FACFBEAB277DAF7F00F50C3F /* 1_PrintMultiplicationTable */,
-				FACFBEB6277DAFD100F50C3F /* 2_PrintGraphics */,
-				FACFBEC1277DB0AF00F50C3F /* 4_GetPublicElements */,
-				FACFBECC277DB13A00F50C3F /* 5_Get1stAND2rdLargest */,
-				FACFBED7277DB19700F50C3F /* 6_GetFrequencyPastHalf */,
-				FACFBEE2277DB22500F50C3F /* 7_GetMinAbs */,
-				FACFBEED277DB28400F50C3F /* 8_GetRepeated */,
+				FACFBEAB277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable */,
+				FACFBEB6277DAFD100F50C3F /* day2_2_PrintGraphics */,
+				FACFBEC1277DB0AF00F50C3F /* day2_3_GetPublicElements */,
+				FACFBECC277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest */,
+				FACFBED7277DB19700F50C3F /* day2_5_GetFrequencyPastHalf */,
+				FACFBEE2277DB22500F50C3F /* day2_6_GetMinAbs */,
+				FACFBEED277DB28400F50C3F /* day2_7_GetRepeated */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FACFBEAA277DAF7F00F50C3F /* 1_PrintMultiplicationTable */ = {
+		FACFBEAA277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBEB1277DAF7F00F50C3F /* Build configuration list for PBXNativeTarget "1_PrintMultiplicationTable" */;
+			buildConfigurationList = FACFBEB1277DAF7F00F50C3F /* Build configuration list for PBXNativeTarget "day2_1_PrintMultiplicationTable" */;
 			buildPhases = (
 				FACFBEA7277DAF7F00F50C3F /* Sources */,
 				FACFBEA8277DAF7F00F50C3F /* Frameworks */,
@@ -195,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = 1_PrintMultiplicationTable;
+			name = day2_1_PrintMultiplicationTable;
 			productName = 1_PrintMultiplicationTable;
-			productReference = FACFBEAB277DAF7F00F50C3F /* 1_PrintMultiplicationTable */;
+			productReference = FACFBEAB277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable */;
 			productType = "com.apple.product-type.tool";
 		};
-		FACFBEB5277DAFD100F50C3F /* 2_PrintGraphics */ = {
+		FACFBEB5277DAFD100F50C3F /* day2_2_PrintGraphics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBEBA277DAFD100F50C3F /* Build configuration list for PBXNativeTarget "2_PrintGraphics" */;
+			buildConfigurationList = FACFBEBA277DAFD100F50C3F /* Build configuration list for PBXNativeTarget "day2_2_PrintGraphics" */;
 			buildPhases = (
 				FACFBEB2277DAFD100F50C3F /* Sources */,
 				FACFBEB3277DAFD100F50C3F /* Frameworks */,
@@ -212,14 +212,14 @@
 			);
 			dependencies = (
 			);
-			name = 2_PrintGraphics;
+			name = day2_2_PrintGraphics;
 			productName = 2_PrintGraphics;
-			productReference = FACFBEB6277DAFD100F50C3F /* 2_PrintGraphics */;
+			productReference = FACFBEB6277DAFD100F50C3F /* day2_2_PrintGraphics */;
 			productType = "com.apple.product-type.tool";
 		};
-		FACFBEC0277DB0AF00F50C3F /* 4_GetPublicElements */ = {
+		FACFBEC0277DB0AF00F50C3F /* day2_3_GetPublicElements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBEC5277DB0AF00F50C3F /* Build configuration list for PBXNativeTarget "4_GetPublicElements" */;
+			buildConfigurationList = FACFBEC5277DB0AF00F50C3F /* Build configuration list for PBXNativeTarget "day2_3_GetPublicElements" */;
 			buildPhases = (
 				FACFBEBD277DB0AF00F50C3F /* Sources */,
 				FACFBEBE277DB0AF00F50C3F /* Frameworks */,
@@ -229,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = 4_GetPublicElements;
+			name = day2_3_GetPublicElements;
 			productName = 4_GetPublicElements;
-			productReference = FACFBEC1277DB0AF00F50C3F /* 4_GetPublicElements */;
+			productReference = FACFBEC1277DB0AF00F50C3F /* day2_3_GetPublicElements */;
 			productType = "com.apple.product-type.tool";
 		};
-		FACFBECB277DB13A00F50C3F /* 5_Get1stAND2rdLargest */ = {
+		FACFBECB277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBED0277DB13A00F50C3F /* Build configuration list for PBXNativeTarget "5_Get1stAND2rdLargest" */;
+			buildConfigurationList = FACFBED0277DB13A00F50C3F /* Build configuration list for PBXNativeTarget "day2_4_Get1stAND2rdLargest" */;
 			buildPhases = (
 				FACFBEC8277DB13A00F50C3F /* Sources */,
 				FACFBEC9277DB13A00F50C3F /* Frameworks */,
@@ -246,14 +246,14 @@
 			);
 			dependencies = (
 			);
-			name = 5_Get1stAND2rdLargest;
+			name = day2_4_Get1stAND2rdLargest;
 			productName = 5_Get1stAND2rdLargest;
-			productReference = FACFBECC277DB13A00F50C3F /* 5_Get1stAND2rdLargest */;
+			productReference = FACFBECC277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest */;
 			productType = "com.apple.product-type.tool";
 		};
-		FACFBED6277DB19700F50C3F /* 6_GetFrequencyPastHalf */ = {
+		FACFBED6277DB19700F50C3F /* day2_5_GetFrequencyPastHalf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBEDB277DB19700F50C3F /* Build configuration list for PBXNativeTarget "6_GetFrequencyPastHalf" */;
+			buildConfigurationList = FACFBEDB277DB19700F50C3F /* Build configuration list for PBXNativeTarget "day2_5_GetFrequencyPastHalf" */;
 			buildPhases = (
 				FACFBED3277DB19700F50C3F /* Sources */,
 				FACFBED4277DB19700F50C3F /* Frameworks */,
@@ -263,14 +263,14 @@
 			);
 			dependencies = (
 			);
-			name = 6_GetFrequencyPastHalf;
+			name = day2_5_GetFrequencyPastHalf;
 			productName = 6_GetFrequencyPastHalf;
-			productReference = FACFBED7277DB19700F50C3F /* 6_GetFrequencyPastHalf */;
+			productReference = FACFBED7277DB19700F50C3F /* day2_5_GetFrequencyPastHalf */;
 			productType = "com.apple.product-type.tool";
 		};
-		FACFBEE1277DB22500F50C3F /* 7_GetMinAbs */ = {
+		FACFBEE1277DB22500F50C3F /* day2_6_GetMinAbs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBEE6277DB22500F50C3F /* Build configuration list for PBXNativeTarget "7_GetMinAbs" */;
+			buildConfigurationList = FACFBEE6277DB22500F50C3F /* Build configuration list for PBXNativeTarget "day2_6_GetMinAbs" */;
 			buildPhases = (
 				FACFBEDE277DB22500F50C3F /* Sources */,
 				FACFBEDF277DB22500F50C3F /* Frameworks */,
@@ -280,14 +280,14 @@
 			);
 			dependencies = (
 			);
-			name = 7_GetMinAbs;
+			name = day2_6_GetMinAbs;
 			productName = 7_GetMinAbs;
-			productReference = FACFBEE2277DB22500F50C3F /* 7_GetMinAbs */;
+			productReference = FACFBEE2277DB22500F50C3F /* day2_6_GetMinAbs */;
 			productType = "com.apple.product-type.tool";
 		};
-		FACFBEEC277DB28400F50C3F /* 8_GetRepeated */ = {
+		FACFBEEC277DB28400F50C3F /* day2_7_GetRepeated */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACFBEF1277DB28400F50C3F /* Build configuration list for PBXNativeTarget "8_GetRepeated" */;
+			buildConfigurationList = FACFBEF1277DB28400F50C3F /* Build configuration list for PBXNativeTarget "day2_7_GetRepeated" */;
 			buildPhases = (
 				FACFBEE9277DB28400F50C3F /* Sources */,
 				FACFBEEA277DB28400F50C3F /* Frameworks */,
@@ -297,9 +297,9 @@
 			);
 			dependencies = (
 			);
-			name = 8_GetRepeated;
+			name = day2_7_GetRepeated;
 			productName = 8_GetRepeated;
-			productReference = FACFBEED277DB28400F50C3F /* 8_GetRepeated */;
+			productReference = FACFBEED277DB28400F50C3F /* day2_7_GetRepeated */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -347,13 +347,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FACFBEAA277DAF7F00F50C3F /* 1_PrintMultiplicationTable */,
-				FACFBEB5277DAFD100F50C3F /* 2_PrintGraphics */,
-				FACFBEC0277DB0AF00F50C3F /* 4_GetPublicElements */,
-				FACFBECB277DB13A00F50C3F /* 5_Get1stAND2rdLargest */,
-				FACFBED6277DB19700F50C3F /* 6_GetFrequencyPastHalf */,
-				FACFBEE1277DB22500F50C3F /* 7_GetMinAbs */,
-				FACFBEEC277DB28400F50C3F /* 8_GetRepeated */,
+				FACFBEAA277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable */,
+				FACFBEB5277DAFD100F50C3F /* day2_2_PrintGraphics */,
+				FACFBEC0277DB0AF00F50C3F /* day2_3_GetPublicElements */,
+				FACFBECB277DB13A00F50C3F /* day2_4_Get1stAND2rdLargest */,
+				FACFBED6277DB19700F50C3F /* day2_5_GetFrequencyPastHalf */,
+				FACFBEE1277DB22500F50C3F /* day2_6_GetMinAbs */,
+				FACFBEEC277DB28400F50C3F /* day2_7_GetRepeated */,
 			);
 		};
 /* End PBXProject section */
@@ -363,7 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEAE277DAF7F00F50C3F /* 1_PrintMultiplicationTable.c in Sources */,
+				FACFBEAE277DAF7F00F50C3F /* day2_1_PrintMultiplicationTable.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEFA277DB30600F50C3F /* 2_PrintGraphics.c in Sources */,
+				FACFBEFA277DB30600F50C3F /* day2_2_PrintGraphics.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEFB277DB30900F50C3F /* 4_GetPublicElements.c in Sources */,
+				FACFBEFB277DB30900F50C3F /* day2_3_GetPublicElements.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEFC277DB30C00F50C3F /* 5_Get1stAND2rdLargest.c in Sources */,
+				FACFBEFC277DB30C00F50C3F /* day2_4_Get1stAND2rdLargest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEFD277DB30F00F50C3F /* 6_GetFrequencyPastHalf.c in Sources */,
+				FACFBEFD277DB30F00F50C3F /* day2_5_GetFrequencyPastHalf.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEFE277DB31300F50C3F /* 7_GetMinAbs.c in Sources */,
+				FACFBEFE277DB31300F50C3F /* day2_6_GetMinAbs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACFBEFF277DB31600F50C3F /* 8_GetRepeated.c in Sources */,
+				FACFBEFF277DB31600F50C3F /* day2_7_GetRepeated.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBEB1277DAF7F00F50C3F /* Build configuration list for PBXNativeTarget "1_PrintMultiplicationTable" */ = {
+		FACFBEB1277DAF7F00F50C3F /* Build configuration list for PBXNativeTarget "day2_1_PrintMultiplicationTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBEAF277DAF7F00F50C3F /* Debug */,
@@ -662,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBEBA277DAFD100F50C3F /* Build configuration list for PBXNativeTarget "2_PrintGraphics" */ = {
+		FACFBEBA277DAFD100F50C3F /* Build configuration list for PBXNativeTarget "day2_2_PrintGraphics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBEBB277DAFD100F50C3F /* Debug */,
@@ -671,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBEC5277DB0AF00F50C3F /* Build configuration list for PBXNativeTarget "4_GetPublicElements" */ = {
+		FACFBEC5277DB0AF00F50C3F /* Build configuration list for PBXNativeTarget "day2_3_GetPublicElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBEC6277DB0AF00F50C3F /* Debug */,
@@ -680,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBED0277DB13A00F50C3F /* Build configuration list for PBXNativeTarget "5_Get1stAND2rdLargest" */ = {
+		FACFBED0277DB13A00F50C3F /* Build configuration list for PBXNativeTarget "day2_4_Get1stAND2rdLargest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBED1277DB13A00F50C3F /* Debug */,
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBEDB277DB19700F50C3F /* Build configuration list for PBXNativeTarget "6_GetFrequencyPastHalf" */ = {
+		FACFBEDB277DB19700F50C3F /* Build configuration list for PBXNativeTarget "day2_5_GetFrequencyPastHalf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBEDC277DB19700F50C3F /* Debug */,
@@ -698,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBEE6277DB22500F50C3F /* Build configuration list for PBXNativeTarget "7_GetMinAbs" */ = {
+		FACFBEE6277DB22500F50C3F /* Build configuration list for PBXNativeTarget "day2_6_GetMinAbs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBEE7277DB22500F50C3F /* Debug */,
@@ -707,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACFBEF1277DB28400F50C3F /* Build configuration list for PBXNativeTarget "8_GetRepeated" */ = {
+		FACFBEF1277DB28400F50C3F /* Build configuration list for PBXNativeTarget "day2_7_GetRepeated" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBEF2277DB28400F50C3F /* Debug */,

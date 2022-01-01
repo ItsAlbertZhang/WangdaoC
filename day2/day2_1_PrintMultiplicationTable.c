@@ -1,9 +1,11 @@
 //
-//  1_PrintMultiplicationTable.c
-//  1_PrintMultiplicationTable
+//  day2_1_PrintMultiplicationTable.c
+//  day2_1_PrintMultiplicationTable
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  1. 打印九九乘法表.
 
 #include <stdio.h>
 

@@ -1,9 +1,11 @@
 //
-//  6_GetFrequencyPastHalf.c
-//  6_GetFrequencyPastHalf
+//  day2_5_GetFrequencyPastHalf.c
+//  day2_5_GetFrequencyPastHalf
 //
 //  Created by 雨轩 on 2021/12/29.
 //
+
+//  5. 给定一个 n 个整型元素的数组 a , 其中有一个元素出现次数超过 n / 2, 求这个元素.
 
 #include <stdio.h>
 #include <stdlib.h>

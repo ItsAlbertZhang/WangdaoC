@@ -1,9 +1,11 @@
 //
-//  1_Lowercase2Uppercase.c
-//  1_Lowercase2Uppercase
+//  day3_1_Lowercase2Uppercase.c
+//  day3_1_Lowercase2Uppercase
 //
 //  Created by 雨轩 on 2021/12/30.
 //
+
+//  1. 从键盘上输入字符, 将小写字母转换成大写字母. 输入 "ctl + z" 结束.
 
 #include <stdio.h>
 
