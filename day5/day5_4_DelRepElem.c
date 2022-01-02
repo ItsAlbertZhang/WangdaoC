@@ -24,23 +24,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int* DelRepElemInIncrementalOrderedArr(int *arr, int len, int *retlen) {
-    int max = arr[0];
-    *retlen = 0;
+int DelRepElemInIncrementalOrderedArr(int *arr, int len) {
+    int ret = 0;
     for(int i = 0; i < len; i++) {
-        if(arr[i] > max) {
-            (*retlen)++;  max = arr[i];
+        if(arr[i] != arr[ret]) {
+            arr[++ret] = arr[i];
         }
     }
-    int *ret = (int*)malloc(sizeof(int) * *retlen);
-    ret[0] = arr[0];
-    int p = 1;
-    for(int i = 0; i < len; i++) {
-        if(arr[i] > ret[p - 1]) {
-            ret[p++] = arr[i];
-        }
-    }
-    return ret;
+    return ret + 1;
 }
 
 int main(int argc, const char * argv[]) {
@@ -57,11 +48,10 @@ int main(int argc, const char * argv[]) {
         printf("%6d", arr[i]);
     }
     printf("\n");
-    int reslen = 0;
-    int *res = DelRepElemInIncrementalOrderedArr(arr, len, &reslen);
+    len = DelRepElemInIncrementalOrderedArr(arr, len);
     printf("Result:\n");
-    for(int i = 0; i < reslen; i++) {
-        printf("%6d", res[i]);
+    for(int i = 0; i < len; i++) {
+        printf("%6d", arr[i]);
     }
     printf("\n");
     return 0;
