@@ -82,12 +82,13 @@ int main(int argc, const char * argv[]) {
     int x = 0, y = 0;
     while(scanf("%d %d", &x, &y) != EOF) {
         int ways = 0;
-        BiTreeNode root;    //这里不使用malloc以便while循环结束时系统自动回收结构体
-        root.x = x;
-        root.y = y;
-        CreateBiTreeNode(&root);
-        PreOrder(&root, 0, &ways, x + y);
+        BiTreeNode *root = (BiTreeNode*)malloc(sizeof(BiTreeNode));
+        root->x = x;
+        root->y = y;
+        CreateBiTreeNode(root);
+        PreOrder(root, 0, &ways, x + y);
         printf("The ways to (%d,%d) is %d\n", x, y, ways);
+        DelTree(root);
     }
     return 0;
 }
