@@ -10,6 +10,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void GetMinAbsByQuicksort(int *a, int len, int *x, int *y);
+void GetMinAbsByBitmap(int *a, int len, int *x, int *y);
+
+int main(int argc, const char * argv[]) {
+    while (1) {
+        int len = 0;
+        printf("请输入数组长度：");
+        scanf("%d", &len);
+        if (len < 0) {
+            break;
+        }
+        int* array = (int*)malloc(sizeof(int) * len);
+        printf("请依次输入数组内的元素，以空格或回车隔开：\n");
+        for (int i = 0; i < len; i++) {
+            scanf("%d", &array[i]);
+        }
+        if (len > 1) {
+            int x, y;
+            GetMinAbsByQuicksort(array, len, &x, &y);
+            printf("相距最近的元素是：%d和%d\n\n", x, y);
+        }
+    }
+    return 0;
+}
+
 int Partition(int a[], int low, int high) {
     int temp = a[low];
     while (low < high) {
@@ -38,7 +63,7 @@ void QuickSort(int a[], int len) {
     QuickSortCore(a, 0, len - 1);
 }
 
-void GetMinAbs(int* a, int len, int* x, int* y) {
+void GetMinAbsByQuicksort(int *a, int len, int *x, int *y) {
     int* b = (int*)malloc(sizeof(int) * len);
     for (int i = 0; i < len; i++) {
         b[i] = a[i];
@@ -59,24 +84,6 @@ void GetMinAbs(int* a, int len, int* x, int* y) {
     *y = b[p + 1];
 }
 
-int main(int argc, const char * argv[]) {
-    while (1) {
-        int len = 0;
-        printf("请输入数组长度：");
-        scanf("%d", &len);
-        if (len < 0) {
-            break;
-        }
-        int* array = (int*)malloc(sizeof(int) * len);
-        printf("请依次输入数组内的元素，以空格或回车隔开：\n");
-        for (int i = 0; i < len; i++) {
-            scanf("%d", &array[i]);
-        }
-        if (len > 1) {
-            int x, y;
-            GetMinAbs(array, len, &x, &y);
-            printf("相距最近的元素是：%d和%d\n\n", x, y);
-        }
-    }
-    return 0;
+void GetMinAbsByBitmap(int *a, int len, int *x, int *y) {
+    
 }
