@@ -1,5 +1,5 @@
 # WangdaoHomework
-This is the homework of Wangdao Camp.
+This is the C language homework of Wangdao Camp.
 
 Opening the .xcodeproj file with Xcode to run this project.
 
