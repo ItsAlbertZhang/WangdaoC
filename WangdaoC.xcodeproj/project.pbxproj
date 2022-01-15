@@ -140,12 +140,33 @@
 			remoteGlobalIDString = FA0C6CDC2785E74A00A70857;
 			remoteInfo = day8_14_BigNumberAdd;
 		};
-		FA224AEC27870A9C00B7CF93 /* PBXContainerItemProxy */ = {
+		FA224BF927926FA200B7CF93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA224AAE27870A9C00B7CF93 /* day9.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FA224AA427870A9C00B7CF93;
-			remoteInfo = day9;
+			remoteGlobalIDString = FA224AF427870BA900B7CF93;
+			remoteInfo = day9_1_Stack;
+		};
+		FA224BFB27926FA200B7CF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA224AAE27870A9C00B7CF93 /* day9.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA224B00278711A500B7CF93;
+			remoteInfo = day9_2_Queue;
+		};
+		FA224BFD27926FA200B7CF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA224AAE27870A9C00B7CF93 /* day9.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA224B0E2787174E00B7CF93;
+			remoteInfo = day9_3_BiTree;
+		};
+		FA224BFF27926FA200B7CF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA224AAE27870A9C00B7CF93 /* day9.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA224B192787202700B7CF93;
+			remoteInfo = day9_4_Sort;
 		};
 		FACFBF20277DCEF800F50C3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -311,7 +332,10 @@
 		FA224AAF27870A9C00B7CF93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA224AED27870A9C00B7CF93 /* day9 */,
+				FA224BFA27926FA200B7CF93 /* day9_1_Stack */,
+				FA224BFC27926FA200B7CF93 /* day9_2_Queue */,
+				FA224BFE27926FA200B7CF93 /* day9_3_BiTree */,
+				FA224C0027926FA200B7CF93 /* day9_4_Sort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -401,7 +425,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 			};
-			buildConfigurationList = FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoHomework" */;
+			buildConfigurationList = FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoC" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -582,11 +606,32 @@
 			remoteRef = FA224AE927870A9C00B7CF93 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FA224AED27870A9C00B7CF93 /* day9 */ = {
+		FA224BFA27926FA200B7CF93 /* day9_1_Stack */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = day9;
-			remoteRef = FA224AEC27870A9C00B7CF93 /* PBXContainerItemProxy */;
+			path = day9_1_Stack;
+			remoteRef = FA224BF927926FA200B7CF93 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA224BFC27926FA200B7CF93 /* day9_2_Queue */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = day9_2_Queue;
+			remoteRef = FA224BFB27926FA200B7CF93 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA224BFE27926FA200B7CF93 /* day9_3_BiTree */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = day9_3_BiTree;
+			remoteRef = FA224BFD27926FA200B7CF93 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA224C0027926FA200B7CF93 /* day9_4_Sort */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = day9_4_Sort;
+			remoteRef = FA224BFF27926FA200B7CF93 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FACFBF21277DCEF800F50C3F /* day2_1_PrintMultiplicationTable */ = {
@@ -825,7 +870,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoHomework" */ = {
+		FACFBE7D277DADD000F50C3F /* Build configuration list for PBXProject "WangdaoC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACFBE87277DADD000F50C3F /* Debug */,
